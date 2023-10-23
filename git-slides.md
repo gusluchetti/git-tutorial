@@ -15,7 +15,7 @@ Git - _Distributed Version Control System_
 - Gerenciamento de mudanças no mesmo arquivo
 - Gestão do código em diferentes estados/ambientes ('branches')
 
-![3 branches, 'master', 'develop' e 'topic'](branches@2x.png){ width=250px }
+![3 branches, 'master', 'develop' e 'topic'](imgs/branches@2x.png){ width=250px }
 
 # Comandos Básicos
 
