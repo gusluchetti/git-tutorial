@@ -77,25 +77,30 @@ Feito em 2005 pelo criador do Linux!
 
 ## Comandos Básicos
 
-- `git init`: criação de um repositório vazio
 - `git add`: adicionar arquivos no próximo commit
-- `git commit`: definir um conjunto de mudanças como pronto pra ser enviado
-- `git remote add`: definir branch 'remota' em algum repositório (no github, por exemplo)
+- `git commit`:
+  definir um conjunto de mudanças como pronto pra ser enviado
 - `git push`: empurrar mudanças para essa branch remota
+- `git merge`: juntar 2 branches
+
+![bg right height:250px](imgs/git-basics.png)
 
 ---
 
-## Git não é Github?
+## Git != Github?
 
-Github - Repositório de bases de código
+[Github](https://github.com/gusluchetti) - Repositório de bases de código
 
 - Avaliar qualidade de código (**Pull Request (PR)**)
 - Automações de deploys
 - Testes automatizados por ambiente
+- Definição de critérios de qualidade (_linting_)
+
+* **Padronização de processos!**
 
 ---
 
-## Demonstração Git/Github
+# LIVE DEMO
 
 Vamos corrigir um arquivo javascript!
 
