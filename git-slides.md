@@ -16,7 +16,7 @@ Gustavo Luchetti, 2023-10-27
 ## Sumário
 
 - O que é **CLI**?
-- Básico da **CLI do _git_**
+- Básico do **_git_**
 - Usando **_git_** com **_Github_**
 - Outras coisas...?
 
@@ -36,12 +36,12 @@ Muito comuns em sistemas _Linux_ (mkdir, cat, grep, ssh, etc.), mas alguns progr
 ## Estrutura padrão
 
 ```bash
-aprofunda -f analise.txt -o analise.pdf --verbose
+aprofunda -f analise.txt -o aprofunda.pdf --verbose
 ```
 
 - `aprofunda`: comando inicial, sempre o mesmo, indica pro terminal que programa você quer rodar.
 - `-f, -o e --verbose`: argumentos adicionais que podem ou não receber parâmetros
-- `analise.txt, analise.pdf`: parâmetros necessários
+- `analise.txt, aprofunda.pdf`: parâmetros necessários
 
 Rodar o aprofunda, recebendo como input um arquivo de texto, devolvendo um arquivo em PDF, explicitando os logs.
 
