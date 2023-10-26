@@ -26,7 +26,8 @@
 <h2 id="come%C3%A7ando-do-in%C3%ADcio">Começando do início...</h2>
 <p>CLI - <em>Command-Line Interface</em></p>
 <p>A única interação que o usuário tem com o programa é por <strong>texto</strong>, no terminal.<br />
-Muito comuns em ambientes <em>Linux</em> (mkdir, grep, touch, etc.), mas alguns programas do dia a dia do desenvolvedor também tem versões CLI (<strong>github</strong>, docker).</p>
+Muito comuns em sistemas <em>Linux</em> (mkdir, cat, grep, ssh, etc.), mas alguns programas do dia a dia do desenvolvedor também tem versões CLI (<strong>github</strong>, docker).</p>
+<p><img src="imgs/terminal.png" alt="" style="height:200px;" /></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-class="invert" class="invert" style="--class:invert;">
 <h2 id="estrutura-padr%C3%A3o">Estrutura padrão</h2>
@@ -41,22 +42,25 @@ Muito comuns em ambientes <em>Linux</em> (mkdir, grep, touch, etc.), mas alguns 
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-class="invert" class="invert" style="--class:invert;">
 <h2 id="pra-que-usar-cli">Pra que usar CLI?</h2>
+<p>&quot;Preciso fazer uma tarefa simples, e preciso fazer ela rápido&quot;</p>
 <ul>
-<li>&quot;Preciso fazer uma tarefa simples, e preciso fazer ela rápido&quot;</li>
+<li>Modificar servidores (sem monitores disponíveis)</li>
 <li>Tarefas que precisam ser rodadas de forma bem específica (ou que exigem configurações específicas)</li>
 <li><strong><em>Definição de infraestrutura e arquitetura (migração de banco de dados), coisas que precisam ser previsíveis e repitidas sem demorar muito tempo.</em></strong></li>
 </ul>
+<p>A intenção NÃO é rejeitar <em>GUIs</em>, e sim explorar alternativas!</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-class="invert" class="invert" style="--class:invert;--marpit-advanced-background-split:50%;" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;imgs/branches@2x.png&quot;);background-size:500px auto;"></figure></div></section></foreignObject><foreignObject width="50%" height="720"><section id="6" data-class="invert" class="invert" style="--class:invert;--marpit-advanced-background-split:50%;" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-class="invert" class="invert" style="--class:invert;--marpit-advanced-background-split:50%;" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;imgs/branches@2x.png&quot;);background-size:440px auto;"></figure></div></section></foreignObject><foreignObject width="50%" height="720"><section id="6" data-class="invert" class="invert" style="--class:invert;--marpit-advanced-background-split:50%;" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
 <h2 id="git">Git</h2>
 <p><em>Sistema de Controle de Versão Distribuído</em><br />
 Feito em 2005 pelo criador do Linux!</p>
 <ul>
-<li>Histórico muito granular<br />
-(<code>git log</code>, <code>git blame</code>)</li>
-<li>Gerenciamento de mudanças (até no mesmo arquivo!)</li>
 <li>Gestão do código em diferentes estados/ambientes ('branches')</li>
-<li>Alterar o passado (<code>git rebase</code>)</li>
+<li>Histórico muito granular<br />
+(<code>git log, diff e blame</code>)</li>
+<li>Gerenciamento de mudanças (até no mesmo arquivo!)</li>
+<li><em>Alteracão do passado?</em><br />
+(<code>git rebase</code>)</li>
 </ul>
 </section>
 </foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-class="invert" class="invert" style="" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-class="invert" class="invert" style="--class:invert;">
@@ -68,7 +72,6 @@ Feito em 2005 pelo criador do Linux!</p>
 <li><code>git remote add</code>: definir branch 'remota' em algum repositório (no github, por exemplo)</li>
 <li><code>git push</code>: empurrar mudanças para essa branch remota</li>
 </ul>
-<p>pra manter tudo na linha de comando, podemos usar a <a href="https://cli.github.com/">CLI do Github</a> para criar um novo repositório usando <code>gh repo create</code></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-class="invert" class="invert" style="--class:invert;">
 <h2 id="git-n%C3%A3o-%C3%A9-github">Git não é Github?</h2>
