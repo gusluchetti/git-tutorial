@@ -90,8 +90,9 @@ Feito em 2005 pelo criador do Linux!
 ## Git != Github?
 
 [Github](https://github.com/gusluchetti) - Repositório de bases de código
+Alternativas: [Azure Repos](https://azure.microsoft.com/en-us/products/devops/repos), GitLab, Bitbucket, ...
 
-- Avaliar qualidade de código (**Pull Request (PR)**)
+- Issues, **Pull Requests (PR)**, Actions!
 - Automações de deploys
 - Testes automatizados por ambiente
 - Definição de critérios de qualidade (_linting_)
@@ -103,6 +104,12 @@ Feito em 2005 pelo criador do Linux!
 # LIVE DEMO
 
 Vamos corrigir um arquivo javascript!
+
+---
+# Sugestões
+
+- https://learngitbranching.js.org - Tutorial interativo de git
+- [No Boilerplate](https://www.youtube.com/@NoBoilerplate) - último vídeo complementa MUITO bem esses slides
 
 ---
 
