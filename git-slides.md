@@ -51,9 +51,9 @@ Rodar o aprofunda, recebendo como input um arquivo de texto, devolvendo um arqui
 
 "Preciso fazer uma tarefa simples, e preciso fazer ela rápido"
 
-- Modificar servidores (sem monitores disponíveis)
+- Modificar servidores (remotamente/não tem ambiente de desktop)
 - Tarefas que precisam ser rodadas de forma bem específica (ou que exigem configurações específicas)
-- **_Definição de infraestrutura e arquitetura (migração de banco de dados), coisas que precisam ser previsíveis e repitidas sem demorar muito tempo._**
+- **_Definição de infraestrutura e arquitetura (migração de banco de dados), coisas que precisam ser previsíveis e repetidas sem demorar muito tempo._**
 
 A intenção NÃO é rejeitar _GUIs_, e sim explorar alternativas!
 
