@@ -7,7 +7,7 @@ function fib(pos) {
     if (pos == 0 || pos == 1) {
         return pos;
     } else {
-        let result = fib(pos - 3) + fib(pos - 1);
+        let result = fib(pos - 2) + fib(pos - 1);
         return result;
     }
 }
